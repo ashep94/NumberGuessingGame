@@ -61,7 +61,6 @@ public class GuessNum extends JComponent{
         panelRandBtns.setLayout(new BoxLayout(panelRandBtns, BoxLayout.X_AXIS));
         
         panelTitle.add(labelTitle);
-//        panelRand.add(labelTitle);
         panelRandBtns.add(btnNext);
         panelRandBtns.add(btnRandNum);
         
@@ -131,17 +130,11 @@ public class GuessNum extends JComponent{
         panelGuessNum.add(panelBtns);
         panelGuessNum.add(panelOutput);
         
-       
-        
-       
-        
         panelGuessNum.setBackground(Color.GREEN);
         labelTextboxPanel.setBackground(Color.RED);
         panelBtns.setBackground(Color.BLUE);
         
        
-        
-        
         btnReturn.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
@@ -181,13 +174,6 @@ public class GuessNum extends JComponent{
             btnEnter.setEnabled(false); 
             }
         });
-        
-        
-        
-        
-
-        
-        
         
         panelMain.add(panelRand,"1");
         panelMain.add(panelGuessNum,"2");
